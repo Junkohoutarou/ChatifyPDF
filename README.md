@@ -16,7 +16,8 @@ To get started with this project, you'll need to clone the repository and set up
 
 ### Prequisites
 Before you can set up a virtual environment, you'll need to have Python installed on your system. You can download Python from the official website: https://www.python.org/downloads/
-
+- Nodejs version >= v16.20.1
+- Python 3.12.0
 ### Cloning the Repository
 Run the following command to clone the repository:
 ```
@@ -36,7 +37,7 @@ pip install -r requirements.txt
 ```
 3. Run the application:
 ```
-python app.py
+python3 app.py
 ```
 
 ### Running the Application
