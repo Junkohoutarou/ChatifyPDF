@@ -73,7 +73,6 @@ def youtube_audio_downloader(link):
             "author": yt.author,
             "description": yt.description
         }
-
         return video_info
 
     except Exception as e:
