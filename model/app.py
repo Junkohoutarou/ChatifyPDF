@@ -112,7 +112,6 @@ def chat():
                 {"role": "assistant", "content": str(text_data)}  # Convert to string
             ]
         )
-        
         # print("JSON Response Data:", response.model_dump_json(indent=2))
         print("Assistant Response Content:", response.choices[0].message.content)
 
