@@ -4,7 +4,7 @@ from openai import AzureOpenAI
 from flask_cors import CORS
 import json
 import os
-import fitz  # Thư viện PyMuPDF
+import fitz  
 from werkzeug.utils import secure_filename
 from pytube import YouTube
 import re
