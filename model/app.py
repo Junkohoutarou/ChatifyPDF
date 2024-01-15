@@ -19,7 +19,7 @@ endpoint_path = os.path.join(os.getcwd(), 'config', 'endpoint_url.txt')
 with open(api_key_path) as f:
     key = f.read().strip()  # loại bỏ khoảng trắng thừa nếu có
 with open(endpoint_path) as f:
-    endpoint = f.read().strip()  # loại bỏ khoảng trắng thừa nếu có
+    endpoint = f.read().strip() 
 
 # Loại bỏ các ký tự không in ASCII từ địa chỉ kết nối
 endpoint = ''.join(char for char in endpoint if char.isprintable())
