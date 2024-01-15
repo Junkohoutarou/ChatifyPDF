@@ -20,7 +20,7 @@ Before you can set up a virtual environment, you'll need to have Python installe
 ### Cloning the Repository
 Run the following command to clone the repository:
 ```
-git clone https://github.com/khoanguyen23/Azure-OpenAI-.git
+git clone https://github.com/Junkohoutarou/ChatifyPDF.git
 ```
 
 ### Setting up a Virtual Environment
