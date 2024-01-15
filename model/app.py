@@ -11,7 +11,6 @@ import re
 app = Flask(__name__)
 CORS(app)
 
-
 # Xác định đường dẫn đến tệp API key và endpoint
 api_key_path = os.path.join(os.getcwd(), 'config', 'API_key.txt')
 endpoint_path = os.path.join(os.getcwd(), 'config', 'endpoint_url.txt')
