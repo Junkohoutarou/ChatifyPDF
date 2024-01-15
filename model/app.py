@@ -1,4 +1,4 @@
-# Flask app (app.py)
+
 from flask import Flask, request, jsonify
 from openai import AzureOpenAI
 from flask_cors import CORS
