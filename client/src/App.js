@@ -12,7 +12,7 @@ export default function App() {
     document.documentElement.setAttribute("dir", "ltr");
     document.documentElement.classList.add('light');
   }, []);
-  kf
+  k
   return (
     <BrowserRouter>
       <ScrollToTop />
