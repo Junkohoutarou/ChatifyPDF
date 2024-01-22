@@ -28,7 +28,6 @@ client = AzureOpenAI(
     api_version="2023-05-15",
     azure_endpoint=endpoint
 )
-
 outputs_json_path = os.path.join(os.getcwd(), 'config', 'outputs.json')
 # Đọc dữ liệu từ tệp outputs.json
 try:
