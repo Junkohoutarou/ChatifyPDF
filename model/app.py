@@ -29,7 +29,6 @@ client = AzureOpenAI(
 )
 
 outputs_json_path = os.path.join(os.getcwd(), 'config', 'outputs.json')
-
 # Đọc dữ liệu từ tệp outputs.json
 try:
     with open(outputs_json_path, 'r') as f:
