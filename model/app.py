@@ -19,7 +19,6 @@ with open(api_key_path) as f:
 with open(endpoint_path) as f:
     endpoint = f.read().strip() 
 
-
 # Loại bỏ các ký tự không in ASCII từ địa chỉ kết nối
 endpoint = ''.join(char for char in endpoint if char.isprintable())
 
