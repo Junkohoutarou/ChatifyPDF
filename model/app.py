@@ -21,7 +21,6 @@ with open(endpoint_path) as f:
 
 # Loại bỏ các ký tự không in ASCII từ địa chỉ kết nối
 endpoint = ''.join(char for char in endpoint if char.isprintable())
-
 client = AzureOpenAI(
     api_key=key,
     api_version="2023-05-15",
